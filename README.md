@@ -41,6 +41,10 @@ Import the carrental.sql file found inside the SQL folder of the project directo
 3. Accessing the Website 🌐
 User Panel
 Open your browser and visit the following URL: http://localhost/carrental.
+
+
+
+
 Login Details:
 Username: test@gmail.com
 Password: Test@123
