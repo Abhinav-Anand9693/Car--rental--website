@@ -1,55 +1,91 @@
-Car Rental Website 🚗
-Welcome to the Car Rental Website! This project allows users to browse available cars, rent them, and access additional features like booking history, invoice generation, and car filtering. The website includes an Admin Panel for managing the cars and user requests, a Testimonial System for users to leave feedback, and a Newsletter Subscription feature to keep users informed about new offers and cars.
+# 🚗 Car Rental Website
 
-Project Features 🌟
-1. Car Rental System 🚙
-Users can browse through a list of available cars, filter them based on various attributes (company, fuel type, etc.), and rent the cars they prefer. The system provides an intuitive and user-friendly interface for easy car selection and booking.
+Welcome to the **Car Rental Website**, a complete solution for browsing, renting, and managing cars online. It features a user-friendly booking system, invoice generation, car filtering, testimonials, newsletter subscriptions, and an admin panel for full platform control.
 
-2. Admin Panel 🛠️
-The admin panel gives administrators the ability to:
+---
 
-Add New Cars: Easily add new cars to the platform with details like make, model, fuel type, price, etc.
-Approve or Decline Booking Requests: Review user booking requests and approve or decline them based on availability.
-Manage Users: View and manage user accounts, ensuring smooth communication and management of the platform.
-3. Booking History & Invoice Generation 📝
-Users can:
+## 🌟 Key Features
 
-View Booking History: Keep track of past bookings and their details.
-Download Invoices: Each completed booking generates an invoice that can be downloaded for user records.
-4. Car Filtering 🔍
-Users can easily filter available cars by different criteria such as:
+### 🚙 Car Rental System
+- Browse and filter cars by **company**, **fuel type**, or **price range**
+- Simple, intuitive booking experience
+- Car availability shown in real time
 
-Car Company: Filter cars based on the company they belong to (e.g., Toyota, Honda, etc.).
-Fuel Type: Filter by fuel type (Petrol, Diesel, Electric, etc.).
-Price Range: Set a price range to find cars within a specified budget.
-5. User Testimonials 💬
-Users can submit their feedback and testimonials based on their rental experience. This helps improve the platform and provides valuable insights to future customers.
+### 🛠️ Admin Panel
+- Add/edit/remove car listings
+- Approve or decline booking requests
+- Manage user accounts
 
-6. Newsletter Subscription 📧
-Users can subscribe to the newsletter to receive updates about new cars, special offers, and other important platform news. This keeps users engaged and informed about the latest additions.
+### 📝 Booking History & Invoice
+- View past bookings
+- Download PDF invoices for completed rentals
 
-Installation Instructions 🛠️
-1. Download and Setup the Project 🖥️
-Download and unzip the project file to your local machine.
-Place the carrental folder inside the root directory of your local server:
-For XAMPP, move it to xampp/htdocs
-For WAMP, move it to wamp/www
-For LAMP, move it to var/www/html
-2. Database Configuration 🗄️
-Open phpMyAdmin and create a new database named carrental.
-Import the carrental.sql file found inside the SQL folder of the project directory.
-3. Accessing the Website 🌐
-User Panel
-Open your browser and visit the following URL: http://localhost/carrental.
+### 🔍 Car Filtering
+- Filter cars by:
+  - Company (e.g., Toyota, Honda)
+  - Fuel type (Petrol, Diesel, Electric)
+  - Budget range
 
+### 💬 Testimonials
+- Users can leave feedback
+- Testimonials are shown to help future customers
 
+### 📧 Newsletter
+- Users can subscribe to get updates on:
+  - New cars
+  - Special discounts
+  - Platform news
 
+---
 
-Login Details:
-Username: test@gmail.com
-Password: Test@123
-Admin Panel
-Open your browser and visit: http://localhost/carrental/admin.
-Admin Login Details:
-Username: admin
-Password: Test@12345
+## 🛠️ Installation Instructions
+
+### 🖥️ Setup
+1. Download or clone the repository.
+2. Move the folder to your web server:
+   - **XAMPP**: `htdocs/`
+   - **WAMP**: `www/`
+   - **LAMP**: `/var/www/html/`
+
+### 🗄️ Database Configuration
+1. Open **phpMyAdmin**
+2. Create a new database named: `carrental`
+3. Import the SQL file from the `/SQL/` folder
+
+---
+
+## 🌐 Accessing the Website
+
+### 👥 User Panel
+- Visit: `http://localhost/carrental/`
+- **Login Credentials**  
+  - Email: `test@gmail.com`  
+  - Password: `Test@123`
+
+### 🧑‍💼 Admin Panel
+- Visit: `http://localhost/carrental/admin/`
+- **Login Credentials**  
+  - Username: `admin`  
+  - Password: `Test@12345`
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+
+---
+
+## 👤 Author
+
+**Abhinav Anand**  
+[GitHub Profile](https://github.com/Abhinav-Anand9693)
+
+---
+
+## 📄 License
+
+This project is for educational use only.
+
